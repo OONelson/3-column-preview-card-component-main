@@ -1,0 +1,106 @@
+       *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            width: 1300px;
+            height: 109vh;
+            background-color: hsl(0, 0%, 95%);
+            background-position: center;
+        }
+        .whole{
+            display: flex;
+            flex-direction: row;
+            width: 600px;
+            height: 300px;
+            border-radius: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+        .sedans{
+            background-color: hsl(31, 77%, 52%);
+            width: 200px;
+            height: 350px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            padding: 25px;
+        }
+         h1{
+            font-size: 32px;
+            color: #fff;
+            font-weight: 600;
+            margin: 20px 0px 20px 0px;
+        }
+        p{
+            color: hsla(0, 0%, 100%, 0.75);
+            font-size: 15px;
+            line-height: 20px;
+            margin-bottom: 65px;
+        }
+        .suvs p{
+            margin-bottom: 45px;
+        }
+        .sedans button{
+            padding: 10px 15px ;
+            background-color: #fff;
+            color:hsl(31, 77%, 52%) ;
+            border-radius: 30px;
+            width: 200px;
+            height: 35px;
+            border: none;
+        }
+        .sedans button:hover{
+            border: 2px solid #fff;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            background-color:hsl(31, 77%, 52%) ;
+        }
+        .suvs{
+            background-color: hsl(184, 100%, 22%);
+            width: 200px;
+            height: 350px;
+            padding: 25px;
+        }
+        .suvs button{
+            padding: 10px 15px ;
+            background-color: #fff;
+            color:hsl(184, 100%, 22%) ;
+            border-radius: 30px;
+            width: 200px;
+            height: 35px;
+            border: none; 
+        }
+        .suvs button:hover{
+            border: 2px solid #fff;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            background-color:hsl(184, 100%, 22%) ;
+        }
+        .luxury{
+            background-color:hsl(179, 100%, 13%) ;
+            width: 200px;
+            height: 350px;
+            padding: 25px; 
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .luxury button{
+            padding: 10px 15px ;
+            background-color: #fff;
+            color:hsl(179, 100%, 13%) ;
+            border-radius: 30px;
+            width: 200px;
+            height: 35px;
+            border: none; 
+        }
+        .luxury button:hover{
+            border: 2px solid #fff;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            background-color:hsl(179, 100%, 13%)
+        }
